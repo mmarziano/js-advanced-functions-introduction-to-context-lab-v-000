@@ -69,7 +69,7 @@ function calculatePayroll() {
   
 }
 
-function findEmployeesByFirstName() {
+function findEmployeeByFirstName() {
   
   
 }
