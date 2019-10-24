@@ -64,6 +64,11 @@ function allWagesFor(emp) {
   return wages;
 }
 
+function calculatePayroll() {
+  
+  
+}
+
 
 
 
