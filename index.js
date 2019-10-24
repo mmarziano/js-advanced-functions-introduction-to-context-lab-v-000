@@ -69,9 +69,9 @@ function calculatePayroll() {
   
 }
 
-function findEmployeeByFirstName() {
-  
-  
+function findEmployeeByFirstName(emps, name) {
+  let record = emps.find(emp => emp.first_name === name)
+  return record.familyName
 }
 
 
