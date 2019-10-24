@@ -59,8 +59,7 @@ function allWagesFor(emp) {
   let datesWorked = emp.timeInEvents.map(obj => obj.date);
   let wages = 0;
   for (let i = 0; i < datesWorked.length; i++) {
-    wages = wages + wagesEarnedOnDate(emp, datesWorked[i]);
-    console.log('wages', wages)
+    wages = wagesEarnedOnDate(emp, datesWorked[i]);
   }
   return wages;
 }
