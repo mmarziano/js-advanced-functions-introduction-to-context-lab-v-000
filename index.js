@@ -60,6 +60,7 @@ function allWagesFor(emp) {
   let wages = 0;
   for (let i = 0; i < datesWorked.length; i++) {
     wages = wages + wagesEarnedOnDate(emp, datesWorked[i]);
+    console.log('wages', wages)
   }
   return wages;
 }
