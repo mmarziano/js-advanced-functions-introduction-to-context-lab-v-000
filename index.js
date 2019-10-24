@@ -69,7 +69,7 @@ function calculatePayroll() {
   
 }
 
-function findEmployeeByFirstName(emps, name) {\
+function findEmployeeByFirstName(emps, name) {
   console.log('emps', emps)
   console.log('name', name)
   let record = emps.find(emp => emp.first_name === name)
