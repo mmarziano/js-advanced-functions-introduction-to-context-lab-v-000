@@ -40,7 +40,7 @@ function createTimeOutEvent(emp, time) {
 }
 
 function hoursWorkedOnDate(emp, date) {
-   (emp.timeOutEvents.forEach(d => d.hour) - emp.timeInEvents.forEach(d => d.hour))/100
+   let hoursWorked = (emp.timeOutEvents.forEach(d => d.hour) - emp.timeInEvents.forEach(d => d.hour))/100
   
     return hoursWorked
 }
