@@ -44,6 +44,7 @@ function hoursWorkedOnDate(emp, date) {
    let hoursIn = emp.timeInEvents.map(obj => obj.hour)
    console.log('hours', hoursOut)
    console.log('hoursIn', hoursIn)
+   console.log(hoursOut - hoursIn)
    let hoursWorked = (emp.timeOutEvents.forEach(d => d.hour) - emp.timeInEvents.forEach(d => d.hour))/100
   
     return hoursWorked
